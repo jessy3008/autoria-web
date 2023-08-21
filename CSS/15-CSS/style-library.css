@@ -1,5 +1,9 @@
 h1{
     color: yellow;
   }
+
+h1 {
+  color: #FFFF !important;
+}
   
   /* Imagine this is a CSS library that contains a lot of other good styles. */

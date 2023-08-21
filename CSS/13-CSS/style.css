@@ -58,6 +58,18 @@ h5 {
   font-family: tahoma;
 }
 
-h5 {
+.description h5{
   color: blueviolet;
+}
+
+li h4{
+  color: gold;
+}
+
+h5 {
+  font-family: monospace;
+}
+
+li {
+  font-family: monospace;
 }
