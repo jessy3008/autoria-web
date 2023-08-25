@@ -1,0 +1,83 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    color:aliceblue;
+}
+
+.header {
+    display: flex;
+    border: 1px solid red;
+    padding: 0px;
+    
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 10px;
+}
+
+.menu{
+    display: flex;
+    padding: 0px 0px 0px 1005px;
+    align-items: center;
+
+}
+.conteudo-menu {
+    display: flex;
+    color:white;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-decoration: underline;
+        /*teste padding*/
+    padding: 0px 0px 0px 10px;
+    margin: 15px 0px 10px 0px;
+  
+}
+
+.parte1 {
+    display: flex;
+    border: 1px solid aqua;
+    justify-content: center;
+    position: relative;
+}
+
+.imagem1 {
+    height: 700px;
+    width: 1000px;
+    background-image: url("resources/img-mission-background.webp");
+    background-size:cover;
+
+}
+
+
+.texto1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 700px;
+    padding-right: 700px;
+    white-space: nowrap;
+    text-align: center;
+    
+
+}
+
+h2 {
+    border: 1px solid pink;
+}
+
+h4 {
+    border: 1px solid blue;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
