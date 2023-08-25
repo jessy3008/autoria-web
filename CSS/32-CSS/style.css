@@ -1,5 +1,6 @@
 html {
     background-color: black;
+    font-family: Helvetica;
 }
 
 h1 {
@@ -29,7 +30,6 @@ h1 {
 .conteudo-menu {
     display: flex;
     color:white;
-    font-family: Helvetica;
     font-size: 22px;
     text-decoration: underline;
         /*teste padding*/
@@ -40,7 +40,7 @@ h1 {
 
 .parte1 {
     display: flex;
-    border: 1px solid aqua;
+    border: 1px solid red;
     justify-content: center;
     position: relative;
 }
@@ -67,17 +67,31 @@ h1 {
     padding-right: 700px;
     white-space: nowrap;
     text-align: center;
-    
+    border: 1px solid red;   
 
-}
-
-h2 {
-    border: 1px solid pink;
 }
 
 h4 {
-    border: 1px solid blue;
     padding-left: 2px;
     padding-right: 2px;
 
+}
+
+.parte2 {
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+
+}
+
+.imagem2-1 {
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.imgp2 {
+  
 }
